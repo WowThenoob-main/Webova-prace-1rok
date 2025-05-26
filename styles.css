@@ -1,5 +1,5 @@
       :root {
-        /*  paleta */
+        
         --clr-bg:url("images/image_background.jpg") center / cover no-repeat;
         --clr-surface:  rgba(175, 226, 255, 0.716) ;
         --clr-surface-p:var(--clr-surface);
@@ -29,14 +29,14 @@
       }
       body::before {
         content: "";
-        position: fixed;              /* sticks to the viewport */
-        inset: 0;                     /* fill whole screen */
+        position: fixed;             
+        inset: 0;                    
         background: var(--clr-bg);
-        z-index: -1;                  /* sit behind everything */
-        filter: brightness(0.95);      /* subtle dim so text pops */
+        z-index: -1;                 
+        filter: brightness(0.95);    
       }
 
-      /* ─────────────────────────────── HEADER & NAVIGATION ─── */
+     
       header {
         background: #555;
         color: #fff;
@@ -79,7 +79,7 @@
       {
         background-color: #d3f0ff;
       }
-      /* ─────────────────────────────────── MAIN AREA ─── */
+      
       main {
         max-width: 1200px;
         margin: 0 auto;
@@ -98,7 +98,7 @@
         font-size: 1.35rem;
       }
       h3
-      .lftext a:hover{/*left-top-text────────────────────────*/
+      .lftext a:hover{
         color: var(--clr-accent);
         text-shadow: var(--shadow);
       }
@@ -108,11 +108,11 @@
         text-decoration: none;
       }
 
-      /* ──────────────────────── RESULTS TABLE ─── */
+    
       .results {
         width: 100%;
         border-collapse: collapse;
-        overflow: hidden; /* allows radius on table */
+        overflow: hidden; 
         border-radius: var(--radius);
         box-shadow: var(--shadow);
       }
@@ -133,7 +133,7 @@
         opacity: 1;
       }
 
-      /* ─────────────────────────────── RESPONSIVE ─── */
+     
       @media (max-width: 600px) {
         nav {
           justify-content: center;
@@ -214,3 +214,7 @@
         color: var(--clr-accent);
         text-shadow: var(--shadow);
       }
+      /*smrti kód*/
+      /*sotva vim jak funguje*/
+      /*peklo*/
+      /*nekde se v něm ani nevyznam*/
