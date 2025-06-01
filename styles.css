@@ -1,5 +1,4 @@
       :root {
-        
         --clr-bg:url("images/image_background.jpg") center / cover no-repeat;
         --clr-surface:  rgba(175, 226, 255, 0.716) ;
         --clr-surface-p:var(--clr-surface);
@@ -133,7 +132,7 @@
         opacity: 1;
       }
 
-     
+      
       @media (max-width: 600px) {
         nav {
           justify-content: center;
@@ -214,7 +213,10 @@
         color: var(--clr-accent);
         text-shadow: var(--shadow);
       }
-      /*smrti kód*/
-      /*sotva vim jak funguje*/
-      /*peklo*/
-      /*nekde se v něm ani nevyznam*/
+      #random{
+        color: #d3d0fbf6;
+      }
+      /*finnaly finished*/
+      /*took to much time*/
+      /*somehow looks good*/
+    
