@@ -39,7 +39,7 @@
       header {
         background: #555;
         color: #fff;
-        position: sticky;
+        position: sticky;/*vyber designu  || muze bejt dano pryc = opravi zoom */
         top: 0;
         z-index: 100;
         opacity: 0.99;
